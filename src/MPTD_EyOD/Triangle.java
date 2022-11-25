@@ -1,13 +1,14 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * ITESS-TICS 
+ * Ago-Dic2022
+ * MPTD
+ * Description: Triangle class
+ * by FJMP
+ * frajavimopu@gmail.com
  */
-package test;
+package MPTD_EyOD;
 
-/**
- *
- * @author TICS03
- */
+
 public class Triangle {
     private double base;
     private double height;

@@ -1,7 +1,17 @@
+/*
+ * ITESS-TICS 
+ * Ago-Dic2022
+ * MPTD
+ * Description: Triangle class test.
+ * by FJMP
+ * frajavimopu@gmail.com
+ */
 package test;
 
+import MPTD_EyOD.Triangle;
 
-public class TI301TestNetbeans {
+
+public class TriangleTest {
 
     /**
      * @param args the command line arguments

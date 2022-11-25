@@ -1,6 +1,10 @@
 /*
- * 
-
+ * ITESS-TICS 
+ * Ago-Dic2022
+ * MPTD
+ * Description: Graph class, edge representation.
+ * by FJMP
+ * frajavimopu@gmail.com
  */
 package MPTD_EyOD;
 
@@ -53,9 +57,6 @@ public class Graph {
                     ((i < numVertex-1)?"), ":")") ;
         }
         out += "]\n";
-        
-        
         return out;
     }
-    
 }
