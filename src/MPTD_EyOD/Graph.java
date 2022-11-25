@@ -27,10 +27,10 @@ public class Graph {
     }
     // dato numVertex, los vertices se enumeran 0,1....numVertex-1
     public void setVertex(int numVertex) {
-        this.numVertex = numVertex;
-        
-        for (int i = 0; i < numVertex; i++)
+        for (int i = 0; i < this.numVertex; i++)
             this.vertex[i] = i;
+       
+        this.numVertex = numVertex;
     }
     
     public void setEdge(int i, int j) {
@@ -39,7 +39,7 @@ public class Graph {
         numEdge++;
     }
     
-    public String toSting() {
+    public String toString() {
         String out = "Graph ----------\n";
         out += "vertices : [";
         for (int i = 0; i < numVertex; i++) {
