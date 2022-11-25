@@ -54,7 +54,7 @@ public class Graph {
         out += "aristas : [";
         for (int i = 0; i < numEdge; i++) {
             out += "(" + edge[i][0] + ", " + edge[i][1] + 
-                    ((i < numVertex-1)?"), ":")") ;
+                    ((i < numEdge-1)?"), ":")") ;
         }
         out += "]\n";
         return out;
