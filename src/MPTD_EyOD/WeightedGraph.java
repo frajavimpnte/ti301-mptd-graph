@@ -2,7 +2,7 @@
  * ITESS-TICS 
  * Ago-Dic2022
  * MPTD
- * Description: Graph class, edge representation.
+ * Description: Weighted Graph class, edge representation.
  * by FJMP
  * frajavimopu@gmail.com
  */
